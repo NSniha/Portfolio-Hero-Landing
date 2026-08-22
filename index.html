@@ -1,11 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- Primary SEO -->
+    <title>Natalie Shlombing | Web Developer, UI/UX Designer & Consultant</title>
+    <meta name="description"
+        content="Natalie Shlombing is a Jakarta-based web specialist helping brands create modern websites, intuitive digital experiences and effective online solutions.">
+    <meta name="keywords"
+        content="Natalie Shlombing, web developer, UI UX designer, web consultant, Jakarta web developer, portfolio website, frontend developer">
+    <meta name="author" content="Natalie Shlombing">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#f2f2f0">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Natalie Shlombing | Web Specialist">
+    <meta property="og:description"
+        content="Creating modern websites, thoughtful interfaces and digital experiences that help businesses grow.">
+    <meta property="og:site_name" content="Natalie Shlombing Portfolio">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Natalie Shlombing | Web Specialist">
+    <meta name="twitter:description"
+        content="Web development, UI/UX design and consulting for modern brands and growing businesses.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Oswald:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-    
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero" id="home" aria-labelledby="hero-title">
+
+            <!-- Header -->
+            <header class="site-header">
+                <div class="header-container">
+
+                    <!-- Desktop Navigation -->
+                    <nav class="desktop-navigation" aria-label="Primary navigation">
+                        <a href="#home" class="nav-link active" aria-current="page">Home</a>
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                        <a href="#blog" class="nav-link">Blog</a>
+                        <a href="#about" class="nav-link">About</a>
+                    </nav>
+
+                    <!-- Brand -->
+                    <a href="#home" class="brand" aria-label="Arcane portfolio home">
+                        <img src="/images/arcane-logo.svg" alt="Arcane" class="brand-logo" width="92" height="42">
+                    </a>
+
+                    <!-- Social Navigation -->
+                    <nav class="header-socials" aria-label="Social media">
+                        <a href="#" class="social-link" aria-label="Visit Instagram"><ion-icon name="logo-instagram"
+                                aria-hidden="true"></ion-icon></a>
+                        <a href="#" class="social-link" aria-label="Visit Facebook"><ion-icon name="logo-facebook"
+                                aria-hidden="true"></ion-icon></a>
+                        <a href="#" class="social-link" aria-label="Visit Twitter"><ion-icon name="logo-twitter"
+                                aria-hidden="true"></ion-icon></a>
+                        <a href="#" class="social-link" aria-label="Visit LinkedIn"><ion-icon name="logo-linkedin"
+                                aria-hidden="true"></ion-icon></a>
+                    </nav>
+
+                    <!-- Mobile Menu Toggle -->
+                    <button class="menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false"
+                        aria-controls="mobileMenu">
+                        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                </div>
+            </header>
+
+            <!-- Mobile Navigation -->
+            <aside class="mobile-menu" id="mobileMenu" aria-hidden="true" aria-label="Mobile navigation">
+                <div class="mobile-menu-header">
+                    <a href="#home" aria-label="Arcane portfolio home">
+                        <img src="/images/arcane-logo.svg" alt="Arcane" class="mobile-logo" width="80" height="36">
+                    </a>
+
+                    <button class="mobile-menu-close" type="button" aria-label="Close navigation menu">
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <nav class="mobile-navigation" aria-label="Mobile primary navigation">
+                    <a href="#home" aria-current="page">Home</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#about">About</a>
+                </nav>
+
+                <nav class="mobile-socials" aria-label="Mobile social media">
+                    <a href="#" aria-label="Visit Instagram"><ion-icon name="logo-instagram"
+                            aria-hidden="true"></ion-icon></a>
+                    <a href="#" aria-label="Visit Facebook"><ion-icon name="logo-facebook"
+                            aria-hidden="true"></ion-icon></a>
+                    <a href="#" aria-label="Visit Twitter"><ion-icon name="logo-twitter"
+                            aria-hidden="true"></ion-icon></a>
+                    <a href="#" aria-label="Visit LinkedIn"><ion-icon name="logo-linkedin"
+                            aria-hidden="true"></ion-icon></a>
+                </nav>
+            </aside>
+
+            <div class="menu-overlay" aria-hidden="true"></div>
+
+            <!-- Hero Content -->
+            <div class="hero-container">
+
+                <!-- Hero Heading -->
+                <div class="hero-title-wrap reveal reveal-title">
+                    <h1 class="hero-title" id="hero-title">Natalie Shlombing</h1>
+                    <span class="title-line" aria-hidden="true"></span>
+                </div>
+
+                <div class="hero-layout">
+
+                    <!-- Services -->
+                    <div class="services-column">
+                        <h2 class="section-label reveal">Services</h2>
+
+                        <div class="services-list">
+
+                            <article class="service-item reveal">
+                                <div class="service-heading">
+                                    <div class="service-icon" aria-hidden="true">
+                                        <ion-icon name="code-slash-outline"></ion-icon>
+                                    </div>
+
+                                    <h3>Web Development</h3>
+                                </div>
+
+                                <p>I build fast, responsive and scalable websites crafted around your brand and business
+                                    goals.</p>
+                            </article>
+
+                            <article class="service-item reveal">
+                                <div class="service-heading">
+                                    <div class="service-icon" aria-hidden="true">
+                                        <ion-icon name="grid-outline"></ion-icon>
+                                    </div>
+
+                                    <h3>UI/UX Design</h3>
+                                </div>
+
+                                <p>I design clean, intuitive interfaces that make digital products easier and more
+                                    enjoyable to use.</p>
+                            </article>
+
+                            <article class="service-item reveal">
+                                <div class="service-heading">
+                                    <div class="service-icon" aria-hidden="true">
+                                        <ion-icon name="person-outline"></ion-icon>
+                                    </div>
+
+                                    <h3>Web Consulting</h3>
+                                </div>
+
+                                <p>I help businesses improve their digital strategy, user experience and overall web
+                                    performance.</p>
+                            </article>
+
+                        </div>
+                    </div>
+
+                    <!-- Portrait -->
+                    <div class="portrait-column reveal portrait-reveal">
+                        <figure class="portrait-frame">
+                            <div class="portrait-background" aria-hidden="true"></div>
+                            <img src="/images/natalie.png" alt="Natalie Shlombing, Jakarta-based web specialist"
+                                class="portrait-image" width="560" height="650" fetchpriority="high">
+                        </figure>
+                    </div>
+
+                    <!-- Professional Introduction -->
+                    <div class="profile-column">
+
+                        <div class="profile-content reveal">
+                            <h2 class="profile-title">Web Specialist based in Jakarta</h2>
+
+                            <div class="profile-description">
+                                <p>I create thoughtful digital experiences that combine clean design, modern technology
+                                    and strong attention to detail.</p>
+
+                                <p>From concept to launch, I work closely with brands and businesses to build websites
+                                    that look refined, perform smoothly and deliver meaningful results.</p>
+                            </div>
+
+                            <a href="#contact" class="hire-button"
+                                aria-label="Hire Natalie Shlombing for your next project">
+                                <span>Hire me</span>
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>
+                        </div>
+
+                        <!-- Professional Statistics -->
+                        <div class="stats reveal" aria-label="Professional achievements">
+
+                            <div class="stat-item">
+                                <strong><span class="counter" data-target="13"
+                                        data-decimals="0">0</span>&nbsp;Years</strong>
+                                <span>Experience</span>
+                            </div>
+
+                            <div class="stat-item">
+                                <strong><span class="counter" data-target="256" data-decimals="0">0</span>+</strong>
+                                <span>Clients</span>
+                            </div>
+
+                            <div class="stat-item">
+                                <strong><span class="counter" data-target="99.8" data-decimals="1">0</span>%</strong>
+                                <span>Satisfaction</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- Main JavaScript -->
+    <script src="/js/script.js"></script>
+
 </body>
+
 </html>
